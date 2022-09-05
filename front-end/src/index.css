@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+body {
+}
+
+hr {
+  margin: 1px;
+}
+
+.login-bg-container {
+  background-image: url("https://cdn.soyunperro.com/wp-content/uploads/2017/06/cachorro-1.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.login {
+  width: 30%;
+  height: 285px;
+  background-color: rgb(0 0 0 / 50%);
+  margin: auto;
+  box-shadow: 8px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid #323435;
+}
+
+.signup {
+  height: 355px;
+}
+
+section h5 {
+  color: rgb(247, 255, 255);
+  text-shadow: 1px 1px 2px rgb(44, 45, 45);
+  margin: 0px;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.login h5,
+.signup h5 {
+  border-bottom: 3px solid;
+}
+
+.home h5 {
+  margin-bottom: 0;
+}
+
+.controls {
+  width: 100%;
+  border: 1px, solid white;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background-color: #bbf2f2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button {
+  width: 50%;
+  height: 40px;
+  background: #bbf2f2;
+  border: none;
+  color: rgb(33, 31, 31);
+  margin: 16px auto;
+  display: block;
+  text-align: center;
+}
+
+/* HOMEPAGE */
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.form-panel {
+  background-image: url("./images/foto3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 707px;
+  width: 100%;
+}
+.information-form {
+  display: flex;
+  flex-direction: column;
+  color: #4d3439;
+  font-size: 20px;
+  margin-left: 20px;
+  align-items: center;
+  width: 400px;
+}
+.information-form span {
+  color: rgb(169 14 67);
+}
+
+.information-form h2 {
+  text-shadow: 2px 3px #5856564f;
+  font-size: 60px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.information-paragraph {
+  margin-bottom: 200px;
+}
+.register-form {
+  background-color: rgba(242, 235, 233, 0.58);
+  display: flex;
+  flex-direction: column;
+  width: 332px;
+  padding: 30px 40px;
+  border-radius: 15px;
+}
+
+.register-form input {
+  border-radius: 15px;
+  border: none;
+  background: #d9d9d9;
+}
