@@ -3,8 +3,9 @@ import SignUp from "./components/SignUp";
 import { Login } from "./components/Login";
 import { Navigate, BrowserRouter, Routes, Route } from "react-router-dom";
 import RequiredAuth from "./components/RequiredAuth";
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import { getLocalStorageInfo } from "./utils/getLocalStorageInfo";
+import Chat from "./components/Chat";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -24,8 +25,6 @@ function App() {
       });
   }, []);
 
-  
-
   return (
     <BrowserRouter>
       <Routes>
@@ -33,12 +32,23 @@ function App() {
           path="/"
           element={
             // <RequiredAuth isAuth={isAuth}>
-              <Home />
+            <Home />
             // </RequiredAuth>
           }
         />
-        <Route path="/login" element={isAuth?<Navigate to="/" /> :<Login setIsAuth={setIsAuth}/>} />
-        <Route path="/sign-up" element={isAuth?<Navigate to="/" /> :<SignUp setIsAuth={setIsAuth}/>} />
+        <Route path="/chat" element={<Chat />} />
+        <Route
+          path="/login"
+          element={
+            isAuth ? <Navigate to="/" /> : <Login setIsAuth={setIsAuth} />
+          }
+        />
+        <Route
+          path="/sign-up"
+          element={
+            isAuth ? <Navigate to="/" /> : <SignUp setIsAuth={setIsAuth} />
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

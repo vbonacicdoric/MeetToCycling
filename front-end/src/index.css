@@ -49,7 +49,7 @@ section h5 {
   border-bottom: 3px solid;
 }
 
-.home h5 {
+h5 {
   margin-bottom: 0;
 }
 
@@ -76,6 +76,10 @@ section h5 {
 
 /* HOMEPAGE */
 
+.home {
+  background-color: rgba(157, 182, 184, 0.17);
+}
+
 .header {
   display: flex;
   justify-content: flex-end;
@@ -89,6 +93,11 @@ section h5 {
   background-size: cover;
   height: 707px;
   width: 100%;
+}
+.form-panel .header a {
+  background-color: #f2ebe9;
+  border-radius: 20px;
+  padding: 8px;
 }
 .information-form {
   display: flex;
@@ -125,5 +134,79 @@ section h5 {
 .register-form input {
   border-radius: 15px;
   border: none;
+  height: 25px;
   background: #d9d9d9;
+  margin: 15px 0;
+}
+.register-form a {
+  text-align: center;
+}
+
+.information-panel {
+  color: #4d3439;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.information-panel h2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+.information-panel h3 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.information-panel span {
+  color: rgb(169 14 67);
+}
+
+.information-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.information-panel img {
+  border-radius: 100%;
+  width: 450px;
+  height: 450px;
+}
+
+.information-text {
+  width: 35%;
+}
+.information-text p {
+  font-size: 22px;
+  text-align: justify;
+}
+
+.information-steps {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.step {
+  display: flex;
+}
+.step-number {
+  color: rgb(169 14 67);
+  font-size: 60px;
+  margin-right: 10px;
+}
+.step-text h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.home a {
+  text-decoration: none;
+  color: #4d3439;
 }
