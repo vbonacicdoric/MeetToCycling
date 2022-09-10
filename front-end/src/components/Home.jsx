@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import photo from "../images/fotocortada2.png";
+import photo1 from "../images/france-1049333_1920.jpg";
 
 const Home = () => {
   return (
@@ -41,7 +42,7 @@ const Home = () => {
               or friends{" "}
             </p>
           </div>
-          <img src={photo} alt="" />
+          <img src={photo1} alt="" />
         </div>
         <div className="information-steps">
           <div className="step">
