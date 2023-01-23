@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b4b6e36.css",
+    "main.js": "/static/js/main.d5d1af26.js",
+    "static/js/787.22edae46.chunk.js": "/static/js/787.22edae46.chunk.js",
+    "static/media/fotocortada2.png": "/static/media/fotocortada2.2bed7feda6e1831df870.png",
+    "static/media/foto3.png": "/static/media/foto3.f3280b931a9ae6ce817c.png",
+    "static/media/france-1049333_1920.jpg": "/static/media/france-1049333_1920.25370f410fe9c92bf08f.jpg",
+    "static/media/cyclist-422139_1920.jpg": "/static/media/cyclist-422139_1920.d9379fcb37effb904ffe.jpg",
+    "index.html": "/index.html",
+    "main.0b4b6e36.css.map": "/static/css/main.0b4b6e36.css.map",
+    "main.d5d1af26.js.map": "/static/js/main.d5d1af26.js.map",
+    "787.22edae46.chunk.js.map": "/static/js/787.22edae46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4b6e36.css",
+    "static/js/main.d5d1af26.js"
+  ]
+}

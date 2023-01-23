@@ -10,23 +10,23 @@ const Chat = () => {
           <input type="text" placeholder="añadir amigo..." />
           <div className="chat-friend">
             <img src={foto} alt="" />
-            <p>Pablo Mendoza</p>
+            <p>Alberto Perez</p>
           </div>
           <div className="chat-friend">
             <img src={foto} alt="" />
-            <p>Pablo Mendoza</p>
+            <p>Alberto Perez</p>
           </div>
           <div className="chat-friend">
             <img src={foto} alt="" />
-            <p>Pablo Mendoza</p>
+            <p>Alberto Perez</p>
           </div>
           <div className="chat-friend">
             <img src={foto} alt="" />
-            <p>Pablo Mendoza</p>
+            <p>Alberto Perez</p>
           </div>
           <div className="chat-friend">
             <img src={foto} alt="" />
-            <p>Pablo Mendoza</p>
+            <p>Alberto Perez</p>
           </div>
         </div>
       </section>
